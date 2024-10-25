@@ -3,6 +3,7 @@ class Unicorn
       @name = name
       @color = color
     end
+
     def name
       @name
     end

@@ -6,6 +6,7 @@ class Dragon
         @rider = rider
         @food = 0
     end
+
     def hungry?
         if @food < 3
             return true
@@ -13,6 +14,7 @@ class Dragon
             return false
         end
     end
+
     def eat
         @food += 1
     end
